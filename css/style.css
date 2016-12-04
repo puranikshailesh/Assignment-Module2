@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  background-color: #A9A9A9;
+  width: 90%;
+  height: 250px;
+  margin: 20px;  
+  font-family: Verdana;
+  color: black;  
+  white-space: pre-wrap;
+  position: relative;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+  font-size:50px;
+    
+}
+
+ch2 {  
+  font-size: 20px;  
+  float:right;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+   border-spacing:10px;    
+}
+
+.bkg-red{
+    background-color:red;      
+}
+
+.bkg-pink{
+    background-color:#ffd39b;      
+}
+
+.bkg-orange{
+    background-color:#ffe4c4;      
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;    
+}
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+  .col-lg {
+    float: left;
+    border: 2px solid black;
+      width: 25%;
+    margin: 20px;
+  }   
+}
+
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2 {
+    float: left;
+    border: 1px solid green;
+    margin: 10px;
+  }
+  .col-md-1 {
+    width: 45%;
+  }
+  .col-md-2 {
+    width: 92%;
+  }  
+
+/********** Small devices **********/
+    
+  @media (min-width: 100px) and (max-width: 767px) {
+  .col-sm {
+    float: left;
+    border: 1px solid green;
+    margin: 20px;
+    width: 100%;
+  } 
+}
